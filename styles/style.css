@@ -172,3 +172,35 @@ nav button {
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
+/* why developent section end */
+
+/* inspiration section start */
+.inspiration{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.inspiration-content h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.inspiration-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.inspiration iframe{
+    border-radius: 15px;
+    margin-top: 40px;
+}
