@@ -30,7 +30,7 @@ font-weight: 500;
     background-image: url(../assets/Hero-bg.png);
     width: 1320px;
     height: 650px;
-    margin: 0 auto;
+    margin: 20px auto;
 
 }
 .content .heading{
@@ -58,5 +58,19 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+border-radius: 8px;
+background: rgb(13, 19, 33);
+padding: 10px 20px;
+
+}
+.banner-btn{
+    padding-left: 420px;
+}
+.content{
+    padding: 20px 100px;
+    align-items: center;
+}
+.banner-img{
+    padding-left: 420px;
 
 }
