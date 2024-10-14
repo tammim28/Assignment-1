@@ -251,14 +251,16 @@ nav button {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
 }
-.target-card-2{
+
+.target-card-2 {
     width: 350px;
     height: 250px;
     padding: 40px;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
 }
-.target-card-3{
+
+.target-card-3 {
     width: 350px;
     height: 250px;
     padding: 40px;
@@ -276,7 +278,8 @@ nav button {
     text-align: left;
 }
 
-.current-target-container h3, p {
+.current-target-container h3,
+p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -299,4 +302,48 @@ nav button {
     text-decoration-line: underline;
     padding-top: 40px;
 }
+
 /* current target section end */
+
+/* next target section start */
+.next-target {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.target-card {
+    margin-top: 25px;
+    display: flex;
+    width: 1040px;
+    height: 200px;
+    gap: 25px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.next-target-container img {
+    width: 95px;
+    height: 100px;
+    padding: 30px;
+
+}
+
+.next-target-container {
+    margin-top: 50px;
+}
+
+.next-content a {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+/* next target section end */
