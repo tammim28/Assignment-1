@@ -172,15 +172,17 @@ nav button {
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
+
 /* why developent section end */
 
 /* inspiration section start */
-.inspiration{
+.inspiration {
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
-.inspiration-content h2{
+
+.inspiration-content h2 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
@@ -189,7 +191,8 @@ nav button {
     letter-spacing: 0%;
     text-align: center;
 }
-.inspiration-content p{
+
+.inspiration-content p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -200,7 +203,100 @@ nav button {
     opacity: 0.7;
 
 }
-.inspiration iframe{
+
+.inspiration iframe {
     border-radius: 15px;
     margin-top: 40px;
 }
+
+/* inspiration section end */
+
+/* current target section start */
+.target-content h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.target-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.current-target {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.current-target-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.target-card-1 {
+    width: 350px;
+    height: 250px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-card-2{
+    width: 350px;
+    height: 250px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-card-3{
+    width: 350px;
+    height: 250px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.target-card h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.current-target-container h3, p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
+}
+
+.current-target-container a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    padding-top: 40px;
+}
+/* current target section end */
